@@ -12,5 +12,5 @@ if(!require(c("shiny","tidyverse","leaflet","htmltools","shinyWidgets"))) {
   install.packages(c("shiny","tidyverse","leaflet","htmltools","shinyWidgets"))
   
 }
-shiny::runGitHub(repo="geo_app", username="wiktorpiela", ref="main")
+shiny::runGitHub(repo="nyc_airbnb_map", username="wiktorpiela", ref="main")
 ```
