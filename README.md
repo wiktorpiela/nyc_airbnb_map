@@ -7,5 +7,10 @@ https://wpiela.shinyapps.io/nyc_airbnb_map/
 or run directly on your desktop:
 
 ```
-
+if(!require(c("shiny","tidyverse","leaflet","htmltools","shinyWidgets"))) {
+  
+  install.packages(c("shiny","tidyverse","leaflet","htmltools","shinyWidgets"))
+  
+}
+shiny::runGitHub(repo="geo_app", username="wiktorpiela", ref="main")
 ```
